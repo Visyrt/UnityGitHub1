@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         print("hello");
+        print("goodbye");
     }
 
    
