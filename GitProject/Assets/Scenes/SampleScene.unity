@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 14389344}
   - component: {fileID: 14389343}
   m_Layer: 0
-  m_Name: photo_5319141036040851230_y
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 1005823504}
   - component: {fileID: 1005823503}
   m_Layer: 0
-  m_Name: knight_0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -321,6 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06493dddc63a9184c9b09685375c3151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
 --- !u!212 &1005823504
 SpriteRenderer:
   m_ObjectHideFlags: 0
